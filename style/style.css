@@ -161,7 +161,7 @@ margin-top:10px ;
     box-shadow: 0 0 .5rem #1B1A55;
     transition: .6s;
     margin-bottom: 10px;
-cursor: pointer; /* Ensure cursor changes to pointer on hover */
+cursor: pointer; 
     transition-timing-function: ease-in-out;
     background-image: linear-gradient(to right, #33CC66, #1B1A55);
 
