@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+body{
+    background-color: #F0F3FF;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    margin-top: 20px;
+}
+.logo{
+ 
+    text-decoration: none;
+font-family: "Protest Guerrilla", sans-serif;
+font-size: 35px; 
+letter-spacing: 1.5px;
+color: #1B1A55;
+font-weight: bolder;
+padding: 25px;
+
+}
+.logo:hover{
+letter-spacing: 4px;
+
+}
+
+form{
+
+
+      width: 35vw;
+      border: 5px double transparent;
+   margin-right: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    margin-top: 30px;
+border-radius: 10px;
+    
+    height: calc(70vh - 1px);
+    color: #1B1A55;
+
+    animation: borderAnimation 2s infinite alternate-reverse;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 9px #33CC66; 
+}
+
+.loginForm{
+margin-left: 30em;
+padding-top: 2em;
+}
+input{
+    font-family: "Josefin Sans", sans-serif;
+
+    padding: 14.5px;
+    backdrop-filter: blur(15px);
+    border: none;
+    border-radius: 15px;
+    letter-spacing: 0.8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+ cursor: pointer;
+ border: none;
+ border-bottom: 3px solid #1B1A55;
+ transition: width 0.4s ease-in-out;
+ transition: border-color 0.3s ease;
+ box-shadow: 0 0 5px #33CC66; 
+}
+
+
+input:focus {
+    animation: focusAnimation 0.5s ease;
+  border-color: #1B1A55;
+  box-shadow: 0 0 5px #33CC66; 
+}
+@keyframes focusAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+a:hover{
+    letter-spacing: 1px;
+    
+
+}
+#submit {
+    background-color: #33CC66;
+    color: white;
+    width: 45%;
+    height: 10%;
+    font-size: 20px;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius:1.5rem;
+    border: 2px solid #1B1A55;
+    box-shadow: 0 0 .5rem #1B1A55;
+    transition: .6s;
+    cursor: pointer; /* Ensure cursor changes to pointer on hover */
+    transition-timing-function: ease-in-out;
+    background-image: linear-gradient(to right, #33CC66, #1B1A55);
+}
+#submit:hover{
+    color:#1B1A55;
+    background-color: #33CC66;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    
+}
