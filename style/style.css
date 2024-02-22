@@ -263,7 +263,7 @@ box-shadow: 0 0 5px #33CC66;
 
 /*courses**/
 .course-container{
- 
+    font-family: "Josefin Sans", sans-serif;
     margin-top: 5em;
     display: flex;
     flex-wrap: wrap;
@@ -274,7 +274,7 @@ box-shadow: 0 0 5px #33CC66;
     border-radius: 5px;
     padding: 13px;
     margin:20px;
-    width:30%;
+    width:28%;
     cursor:pointer ;
     border-radius: 10px;
     position: relative; /* Ensure relative positioning for absolute positioning */
@@ -313,17 +313,113 @@ box-shadow: 0 0 5px #33CC66;
     font-weight: bold;
 }
 .apply-button {
-
+    font-family: "Josefin Sans", sans-serif;
     background-color:#1B1A55;
-    color: #fff;
+    color: white;
     border: none;
     padding: 8px 16px;
-    margin-left: 20px;
-    border-radius: 4px;
+    border-radius:9px;
+    width: 9em;
+    height: 3em;
     cursor: pointer;
     font-size: 14px;
+    box-shadow: 0 0 9px #33CC66;
+    border-bottom: 8px solid #1B1A55;
 }
 
 .apply-button:hover {
     transform: scale(1.1);
+}
+
+.slider-container{
+    font-family: "Josefin Sans", sans-serif;
+
+    position: relative; /* Ensure relative positioning for absolute positioning */
+    transition: transform 0.3s ease; 
+    margin-top: 3em;
+    margin-left: 14em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.slide{
+
+    box-sizing: border-box;
+    width: 25%;
+
+}
+.slide:hover{
+    border: none;
+    border-radius: 10px;
+ 
+    transform: translateY(-10px);
+}
+.slide img{
+    width: 30%;
+    margin-left: 75px;
+    margin-top: 45px;
+ 
+}
+.num{
+    background-color:white ;
+    margin-top: -13px;
+    margin-left: 25%;
+    width: 30%;
+    height: 10%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    border-radius: 5em;
+    text-align: center;
+}
+.num:hover{
+    transform: scale(1.1);
+}
+.disc{
+   margin-left: 49px;
+}
+footer{
+    margin-top: 14%;
+    background-color: #1B1A55;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+padding: 7%;
+margin-left: 4px;
+display: flex;
+font-weight: lighter;
+font-size: larger;
+border-radius: 9px;
+padding-bottom: 0px;
+
+}
+.about-us{
+    width: 40%;
+    margin-left:-40px;
+    margin-top: -5em;
+    font-family: "Josefin Sans", sans-serif;
+}
+.courses{
+    margin-left: 85px;
+    margin-top: -1em; 
+}
+ul{
+    margin-left: -20px;
+}
+li{
+padding-bottom: 10px;
+}
+
+.copyright{
+    margin-top: 14em;
+    margin-left:-23em;
+    padding: 0;
+}
+.social{
+   display: block;
+    margin-left: 120px;
+    margin-top: -1em; 
+
+}
+ul li img{
+    width: 2em;
+   
 }
